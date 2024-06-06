@@ -87,6 +87,9 @@ class ExcelProcessor:
                           [col for col in existing_columns if col not in preferred_order]
         self.df = self.df[ordered_columns]
         self.df = self.df.sort_values(by='Full Name', ascending=True)
+        if "Resume" in self.df.columns:
+            resume_index = self.df.columns.get_loc("Resume")
+            self.df = self.df.iloc[:, :resume_index + 1]
 
     def add_serial_column(self):
         self.df.insert(0, 'Sr No', range(1, len(self.df) + 1))
