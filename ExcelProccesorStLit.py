@@ -3,7 +3,7 @@ from ExcelProcessor import ExcelProcessor
 from io import BytesIO
 
 def main():
-    st.title("Excel Processing App")
+    st.title("AutoTPC 1.0(Beta)")
     st.sidebar.title("Input Parameters")
 
     # File uploader for Excel file
