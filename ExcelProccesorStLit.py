@@ -33,7 +33,7 @@ def main():
             preferred_order = [
                 'Full Name', 'Personal Email ID', 'CollegeRollNo', 'Contact No', 'Gender',
                 'Branch', 'BTech Major Course', 'College Name', '10th Percentage',
-                '10th Year of Passing', '12th / Diploma', '12th/ Diploma Percentage',
+                '10th Year of Passing', '12th/Diploma', '12th/ Diploma Percentage',
                 '12th/ Diploma Year of Passing', 'Degree', 'BTech CGPA', 'BTech Percentage',
                 'Batch', 'Resume'
             ]
